@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@0,700;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /* background-image: url(protofolio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+body{
+   background-color: var(--bg-color);
+    color: #fff;
+
+}
+
+header{
+    width: 100%;
+    background-color: var(--info-color);
+    padding: 40px;
+
+}
+
+:root{
+    --primary-color: #ade8f4 ;
+    --secondary-color:  #0096c7;
+    --info-color: #03045e ;
+    --another-color: #023e8a;
+    --bg-color:#68699c;
+    
+}
+
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.d-flex{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar-bar{
+    justify-content: space-between;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #fff;;
+
+}
+
+.text-header{
+    color: var(--secondary-color);
+    font-family: 'Permanent Marker', cursive;
+    
+}
+
+.navigation-bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 12px;
+    text-transform: capitalize;
+}
+
+.navigation-bar ul li a:hover{
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.btn{
+    color: #fff;
+    border: 4px solid var(--secondary-color);
+    border-radius: 8px;
+    padding: 3px 8px;
+    cursor: pointer;
+}
+
+
+.text-title{
+    font-family: 'Permanent Marker', cursive;
+    /* font-family: 'Roboto', sans-serif; */
+
+}
+.btn:hover{
+    background-color: var(--secondary-color);
+}
+
+.burger{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+.burger span {
+    display: block;
+    margin-bottom: 3px;
+    height: 3px;
+    background-color: var(--secondary-color);
+}
+
+
+
+@media (max-width:1120px){
+    .navigation-bar  {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        background-color: var(--another-color);
+        padding: 20 0;
+        z-index: 2 ;
+
+
+    }
+
+    .navigation-bar ul li {
+        display: block;
+        margin: 15px 0;
+       
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .navigation-bar.active{
+        display: flex;
+    }
+
+    .home-contact{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .logo-png{
+        margin-top: -170px;
+
+
+       
+    }
+
+    .right-contact  img {
+        width: 100%;
+        
+        
+    }
+    .btn-2:hover{
+        background-color: var(--secondary-color);
+        cursor: pointer;
+        z-index: 3;
+    }
+
+}
+
+.home-contact {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 90vw;
+    height: 90vh;
+}
+
+   
+.left-contact {
+    padding: 40px;
+
+    
+}
+.span-name{
+    display: block;
+    font-family: 'Roboto', sans-serif; 
+    text-transform: capitalize;
+    font-weight: 900;
+
+    color: #ffffff;
+    
+
+}
+
+.button-review {
+    
+
+}
+.btn-2 {
+    color: #fff;
+    /* display: block; */
+    width: 3%;
+    padding: 0 8px;
+    transform: translateY(15px);
+
+    border: 4px solid var(--secondary-color);
+    border-radius: 8px;
+    
+}
+
+.btn-2:hover{
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    z-index: 3;
+}
+
+
+footer{
+    width: 100%;
+    background-color: var(--info-color);
+    padding: 40px;
+
+}
+
+footer h1{
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+footer p{
+    text-transform: capitalize;
+    margin-bottom: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.fa{
+    background-color: #03045e;
+    padding: 7px;
+    border-radius: 50%;
+    border: 3px solid var(--secondary-color);
+}
+
+.fa-facebook{
+    /* height: 29px; */
+    padding-left:5px ;
+    padding-right:5px ;
+}
+
+.fa:hover{
+    background-color: var(--secondary-color);
+
+}
+img{
+    b
+}
+
+.icon h1{
+    
+}
